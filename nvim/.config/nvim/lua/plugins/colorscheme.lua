@@ -1,6 +1,6 @@
 return {
   {
-    "binhtran432k/dracula.nvim",
+    "maxmx03/dracula.nvim",
     lazy = false,
     priority = 1000,
     opts = {},
