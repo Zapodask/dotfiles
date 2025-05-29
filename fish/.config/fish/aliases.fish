@@ -7,6 +7,7 @@ alias dstop='docker stop $(docker ps -a -q)'
 alias ddown='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
 # Neovim
+alias n='nvim'
 alias fnvim='nvim $(fzf -m --preview="bat --color=always {}")'
 alias nvim-sync="nvim --headless '+Lazy! sync' +qall"
 
