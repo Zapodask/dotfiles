@@ -4,7 +4,6 @@ import dracula.draw
 config.load_autoconfig()
 
 dracula.draw.blood(c, {"spacing": {"vertical": 6, "horizontal": 8}})
-c.colors.webpage.darkmode.enabled = True
 
 c.url.start_pages = ["https://web.whatsapp.com/", "qute://bookmarks/"]
 c.url.searchengines = {"DEFAULT": "https://www.google.com/search?q={}"}
