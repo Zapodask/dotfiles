@@ -14,6 +14,9 @@ if not contains $_asdf_shims $PATH
 end
 set --erase _asdf_shims
 
+# Bitwarden
+set -gx SSH_AUTH_SOCK $HOME/.bitwarden-ssh-agent.sock
+
 export PATH="$HOME/.cargo/bin:$PATH"
 
 fish_config theme choose dracula
