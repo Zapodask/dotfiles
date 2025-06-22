@@ -7,4 +7,4 @@ dracula.draw.blood(c, {"spacing": {"vertical": 6, "horizontal": 8}})
 
 c.url.start_pages = ["https://web.whatsapp.com/", "qute://bookmarks/"]
 c.url.searchengines = {"DEFAULT": "https://www.google.com/search?q={}"}
-c.downloads.remove_finished = 2000
+c.downloads.remove_finished = 5000
