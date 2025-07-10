@@ -3,6 +3,10 @@ font-size = 10
 background-opacity = 0.95
 gtk-titlebar = false
 
+keybind = alt+q=new_tab
+keybind = alt+h=previous_tab
+keybind = alt+l=next_tab
+
 keybind = super+ctrl+c=close_surface
 
 keybind = super+ctrl+j=new_split:down
