@@ -8,3 +8,7 @@ vim.keymap.set(
   "<cmd>lua vim.cmd('RustLsp testables')<CR>",
   { desc = "Debuber testables", remap = true }
 )
+
+-- Don't copy on delete or paste in visual mode
+vim.keymap.set("x", "d", '"_d')
+vim.keymap.set("x", "p", '"_dP')
