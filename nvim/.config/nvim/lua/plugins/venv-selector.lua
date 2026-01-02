@@ -5,7 +5,6 @@ return {
     opts = {
       name = ".venv",
     },
-    event = "VeryLazy",
     keys = {
       { "<leader>vs", "<cmd>VenvSelect<cr>" },
       { "<leader>vc", "<cmd>VenvSelectCached<cr>" },
