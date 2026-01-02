@@ -1,23 +1,15 @@
 starship init fish | source
 zoxide init fish | source
 fzf --fish | source
-
-# ASDF configuration code
-if test -z $ASDF_DATA_DIR
-    set _asdf_shims "$HOME/.asdf/shims"
-else
-    set _asdf_shims "$ASDF_DATA_DIR/shims"
-end
-
-if not contains $_asdf_shims $PATH
-    set -gx --prepend PATH $_asdf_shims
-end
-set --erase _asdf_shims
+mise activate fish | source
 
 # Bitwarden
 set -gx SSH_AUTH_SOCK $HOME/.bitwarden-ssh-agent.sock
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+set -x GOPATH $HOME/go
+fish_add_path $GOPATH/bin
 
 fish_config theme choose dracula
 

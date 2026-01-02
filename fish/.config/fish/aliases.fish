@@ -10,7 +10,7 @@ alias dnclean='docker network prune'
 alias diclean='docker image prune -a'
 
 # Neovim
-alias n='nvim'
+alias n='mise x node@22.21.1 -- nvim'
 alias fnvim='nvim $(fzf -m --preview="bat --color=always {}")'
 alias nvim-sync="nvim --headless '+Lazy! sync' +qall"
 
